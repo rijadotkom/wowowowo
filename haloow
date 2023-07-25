@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <!-- 
-  Code Made By Fakhrurrozy
-  Instagram by Ozyy.mfr12
 
   -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hai My Love</title>
+    <title>halooo rara sayaang</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet" />
@@ -39,7 +37,7 @@
           <h1 id="jam">00:00</h1>
         </div>
         <div class="tanggal">
-          <p class="tgl">Sunday, 22 January</p>
+          <p class="tgl">Everyday, 15 always miss u</p>
         </div>
         <div class="notif notif1 kelip" onclick="balas()">
           <div class="header">
@@ -51,10 +49,10 @@
             </div>
           </div>
           <div class="nama nama1">
-            <p>Fakhrurrozy❤</p>
+            <p>ecaaaa</p>
           </div>
           <div class="isi">
-            <p>Hai, Kenalan Dong. .</p>
+            <p>dibaca yaa sayaangkuu</p>
           </div>
         </div>
         <div class="notif notif2">
@@ -67,7 +65,7 @@
             </div>
           </div>
           <div class="nama nama2">
-            <p>Fakhrurrozy❤</p>
+            <p>ecaaaaa</p>
           </div>
           <div class="isi">
             <p class="gombal"></p>
@@ -80,12 +78,7 @@
         </div>
       </div>
     </div>
-    <a href="https://wa.me/6281298829876" class="copyright">
-      <p class="cr"><i class="material-icons-sharp cr-logo"> copyright </i></p>
-      <p>Fakhrurrozy.ID</p>
-    </a>
-    <script type="text/javascript">
-
+   
       // Custom
       var pengirim = "";
       var musik = "";
@@ -96,7 +89,7 @@
       var pesanWhatsapp = "";
 
       // ======================================
-      var audio = document.querySelector(".audio"); if (musik) audio.src = musik; var notif = document.querySelector(".notif"); if (pengirim) { document.querySelector(".nama1").innerHTML = pengirim; document.querySelector(".nama2").innerHTML = pengirim; } if (background1) { document.querySelector(".background2").style.backgroundImage = "url('" + background1 + "')"; } if (background2) { document.querySelector(".background1").style.backgroundImage = "url('" + background2 + "')"; } $(window).on("load", function () { $(".loading").fadeOut("slow"); }); function tanggal() { const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; const d = new Date(); let hari = days[d.getDay()]; let tgl = d.getDate(); let bln = months[d.getMonth()]; document.querySelector(".tgl").innerHTML = hari + ", " + tgl + " " + bln; } function notif1() { document.querySelector(".hilang1").style.display = "none"; document.querySelector(".hilang2").style.display = "inline-block"; audio.play(); notif.play(); document.querySelector(".notif1").style.transform = "translateX(0)"; } const swalo = Swal.mixin({ confirmButtonColor: "#23a542", allowOutsideClick: false, showCancelButton: false, customClass: { popup: "border-radius", }, }); async function balas() { var { value: nama } = await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker_mylove.gif", imageHeight: 120, title: "Hai, Manis , Kenalan Dong , Namakamu Siapa?", input: "text", confirmButtonText: "Kirim", }); if (nama) { document.querySelector(".hilang2").style.display = "none"; txt = "Hai " + nama + ", "; if (ucapan) { txt += ucapan; } else { txt += "Inget Ga. Aku Selalu Bilang Ke Kamu Kan, Kalo Tuhan Itu Baik Yah, Saat Aku Minta Bunga Mawar, Aku Diberi Taman Yang Indah. Saat Aku Meminta Setetes Air, Aku Diberi Lautan. Eh, Saat Aku Minta Bidadari, Aku Diberi Kamu, BTW Makasih Ya Udah Selalu Sayang Buat Aku"; } typeWriter(); notif2(); } else { await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker2_mylove.gif", imageHeight: 120, confirmButtonText: "Iya deh", title: "Kenapa gak diisi? Aku kan pengin kenalan...", }); balas(); } } function notif2() { notif.play(); document.querySelector(".notif1").style.display = "none"; document.querySelector(".notif2").style.transform = "translateX(0)"; } var i = 0; var speed = 120; function typeWriter() { if (i < txt.length) { document.querySelector(".gombal").innerHTML += txt.charAt(i); i++; setTimeout(typeWriter, speed); } else { document.querySelector(".notif2").style.animation = "kelip 1200ms infinite ease"; document.querySelector(".background2").style.transition = "3s all ease"; document.querySelector(".background2").style.opacity = "0"; if (noWhatsapp && pesanWhatsapp) { document.querySelector(".kirimWA").style.display = "inline-block"; } } } function startTime() { tanggal(); const today = new Date(); let h = today.getHours(); let m = today.getMinutes(); h = checkTime(h); m = checkTime(m); document.getElementById("jam").innerHTML = h + ":" + m; setTimeout(startTime, 1000); } function checkTime(i) { if (i < 10) { i = "0" + i; } return i; } document.querySelector(".kirimWA").addEventListener("click", function () { location.assign("https://wa.me/" + noWhatsapp + "/?text=" + pesanWhatsapp); });
+      var audio = document.querySelector(".audio"); if (musik) audio.src = musik; var notif = document.querySelector(".notif"); if (pengirim) { document.querySelector(".nama1").innerHTML = pengirim; document.querySelector(".nama2").innerHTML = pengirim; } if (background1) { document.querySelector(".background2").style.backgroundImage = "url('" + background1 + "')"; } if (background2) { document.querySelector(".background1").style.backgroundImage = "url('" + background2 + "')"; } $(window).on("load", function () { $(".loading").fadeOut("slow"); }); function tanggal() { const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; const d = new Date(); let hari = days[d.getDay()]; let tgl = d.getDate(); let bln = months[d.getMonth()]; document.querySelector(".tgl").innerHTML = hari + ", " + tgl + " " + bln; } function notif1() { document.querySelector(".hilang1").style.display = "none"; document.querySelector(".hilang2").style.display = "inline-block"; audio.play(); notif.play(); document.querySelector(".notif1").style.transform = "translateX(0)"; } const swalo = Swal.mixin({ confirmButtonColor: "#23a542", allowOutsideClick: false, showCancelButton: false, customClass: { popup: "border-radius", }, }); async function balas() { var { value: nama } = await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker_mylove.gif", imageHeight: 120, title: "rara sayangg tulis namanya doong disini", input: "text", confirmButtonText: "Kirim", }); if (nama) { document.querySelector(".hilang2").style.display = "none"; txt = "haiii " + nama + ", "; if (ucapan) { txt += ucapan; } else { txt += "haloo sayangnya ecaaa, maaf yaaa tadi eca lamaa, kitanya miskom huhu:(( maap yaa sayaanggg, ecaa sayangg bangett sama raraaa, lopyuu sayaangg"; } typeWriter(); notif2(); } else { await swalo.fire({ imageUrl: "https://dekatutorial.github.io/stiker2_mylove.gif", imageHeight: 120, confirmButtonText: "Iya deh", title: "ko ga diisi sii sayaang", }); balas(); } } function notif2() { notif.play(); document.querySelector(".notif1").style.display = "none"; document.querySelector(".notif2").style.transform = "translateX(0)"; } var i = 0; var speed = 120; function typeWriter() { if (i < txt.length) { document.querySelector(".gombal").innerHTML += txt.charAt(i); i++; setTimeout(typeWriter, speed); } else { document.querySelector(".notif2").style.animation = "kelip 1200ms infinite ease"; document.querySelector(".background2").style.transition = "3s all ease"; document.querySelector(".background2").style.opacity = "0"; if (noWhatsapp && pesanWhatsapp) { document.querySelector(".kirimWA").style.display = "inline-block"; } } } function startTime() { tanggal(); const today = new Date(); let h = today.getHours(); let m = today.getMinutes(); h = checkTime(h); m = checkTime(m); document.getElementById("jam").innerHTML = h + ":" + m; setTimeout(startTime, 1000); } function checkTime(i) { if (i < 10) { i = "0" + i; } return i; } document.querySelector(".kirimWA").addEventListener("click", function () { location.assign("https://wa.me/" + noWhatsapp + "/?text=" + pesanWhatsapp); });
       </script>
   </body>
 </html>
